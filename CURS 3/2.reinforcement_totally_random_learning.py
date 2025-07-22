@@ -6,6 +6,10 @@ import time
 
 
 
+### 1. Miscarile sunt random la fiecare pas
+### 2. Nu se tine cont de cea mai buna viitoare solutie
+
+
 ### VARIABILE
 actions = ["left", "right"]
 SIZE = 5
@@ -76,5 +80,5 @@ def move_agent():
 
 
 for e in range(EPOCI):
-    time.sleep(3)
+    time.sleep(1)
     move_agent()
